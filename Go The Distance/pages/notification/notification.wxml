@@ -1,0 +1,116 @@
+<!--logs.wxml-->
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ?'on':''}}" data-current="0" bindtap="swichNav">动态</view>
+  <view class="swiper-tab-list {{currentTab==1 ?'on':''}}" data-current="0" bindtap="swichNav">消息</view>
+</view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+  <swiper-item>
+    <view class="bottomGrayboder listitemWrap">
+        <view class="notifylistitem">
+            <navigator class="nav_userlink" hover-class="navigator-hover">
+                <view class="likeuser">
+                    <image class="useravatar" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/50/large_94108_69b6c416bd7c03c6738476a466d6df05.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/50/large_94108_69b6c416bd7c03c6738476a466d6df05.jpg); "/>
+                </view>
+            </navigator>
+            <view class="wx-view_WnUrtw2">
+                <view class="wx-view_F9ISUC2">
+                    <navigator class="wx-navigator_wTcTS2" hover-class="navigator-hover">
+                        <text class="wx-text_71u3gA2">乖</text>
+                    </navigator>
+                    <text class="wx-text_kGXxsa2">收藏了一件商品</text>
+                    <text class="wx-text_kGXxsa3">4小时前</text>
+                </view>
+            </view>
+            <navigator class="nav_commoditylink" hover-class="navigator-hover" url="../detail/detail">
+                <image class="wx-image_5vt1BO" mode="aspectFit" src="../../image/c.jpg" style="background-image: url(../../image/c.jpg; background-size: contain; background-position: center center; background-repeat: no-repeat; "/>
+            </navigator>
+        </view>
+    </view>
+    <view class="bottomGrayboder listitemWrap">
+        <view class="notifylistitem">
+            <navigator class="nav_userlink" hover-class="navigator-hover">
+                <view class="likeuser">
+                    <image class="useravatar" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/50/large_94108_69b6c416bd7c03c6738476a466d6df05.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/50/large_94108_69b6c416bd7c03c6738476a466d6df05.jpg); "/>
+                </view>
+            </navigator>
+            <view class="wx-view_WnUrtw2">
+                <view class="wx-view_F9ISUC2">
+                    <navigator class="wx-navigator_wTcTS2" hover-class="navigator-hover">
+                        <text class="wx-text_71u3gA2">乖</text>
+                    </navigator>
+                    <text class="wx-text_kGXxsa2">收藏了一件商品</text>
+                    <text class="wx-text_kGXxsa3">4小时前</text>
+                </view>
+            </view>
+            <navigator class="nav_commoditylink" hover-class="navigator-hover" url="../detail/detail">
+                <image class="wx-image_5vt1BO" mode="aspectFit" src="../../image/c.jpg" style="background-image: url(../../image/c.jpg; background-size: contain; background-position: center center; background-repeat: no-repeat; "/>
+            </navigator>
+        </view>
+    </view>
+    <view class="bottomGrayboder listitemWrap">
+        <view class="notifylistitem">
+            <navigator class="nav_userlink" hover-class="navigator-hover">
+                <view class="likeuser">
+                    <image class="useravatar" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/50/large_94108_69b6c416bd7c03c6738476a466d6df05.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/50/large_94108_69b6c416bd7c03c6738476a466d6df05.jpg); "/>
+                </view>
+            </navigator>
+            <view class="wx-view_WnUrtw2">
+                <view class="wx-view_F9ISUC2">
+                    <navigator class="wx-navigator_wTcTS2" hover-class="navigator-hover">
+                        <text class="wx-text_71u3gA2">乖</text>
+                    </navigator>
+                    <text class="wx-text_kGXxsa2">收藏了一件商品</text>
+                    <text class="wx-text_kGXxsa3">4小时前</text>
+                </view>
+            </view>
+            <navigator class="nav_commoditylink" hover-class="navigator-hover" url="../detail/detail">
+                <image class="wx-image_5vt1BO" mode="aspectFit" src="../../image/c.jpg" style="background-image: url(../../image/c.jpg; background-size: contain; background-position: center center; background-repeat: no-repeat; "/>
+            </navigator>
+        </view>
+    </view>
+    <view class="bottomGrayboder listitemWrap">
+        <view class="notifylistitem">
+            <navigator class="nav_userlink" hover-class="navigator-hover">
+                <view class="likeuser">
+                    <image class="useravatar" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/50/large_94108_69b6c416bd7c03c6738476a466d6df05.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/50/large_94108_69b6c416bd7c03c6738476a466d6df05.jpg); "/>
+                </view>
+            </navigator>
+            <view class="wx-view_WnUrtw2">
+                <view class="wx-view_F9ISUC2">
+                    <navigator class="wx-navigator_wTcTS2" hover-class="navigator-hover">
+                        <text class="wx-text_71u3gA2">乖</text>
+                    </navigator>
+                    <text class="wx-text_kGXxsa2">收藏了一件商品</text>
+                    <text class="wx-text_kGXxsa3">4小时前</text>
+                </view>
+            </view>
+            <navigator class="nav_commoditylink" hover-class="navigator-hover" url="../detail/detail">
+                <image class="wx-image_5vt1BO" mode="aspectFit" src="../../image/c.jpg" style="background-image: url(../../image/c.jpg; background-size: contain; background-position: center center; background-repeat: no-repeat; "/>
+            </navigator>
+        </view>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class="bottomGrayboder listitemWrap">
+        <view class="notifylistitem">
+            <navigator class="nav_userlink" hover-class="navigator-hover">
+                <view class="likeuser">
+                    <image class="useravatar" mode="aspectFill" src="http://imgcdn.guoku.com/avatar/50/large_94108_69b6c416bd7c03c6738476a466d6df05.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://imgcdn.guoku.com/avatar/50/large_94108_69b6c416bd7c03c6738476a466d6df05.jpg); "/>
+                </view>
+            </navigator>
+            <view class="wx-view_WnUrtw2">
+                <view class="wx-view_F9ISUC2">
+                    <navigator class="wx-navigator_wTcTS2" hover-class="navigator-hover">
+                        <text class="wx-text_71u3gA2">凹凸曼</text>
+                    </navigator>
+                    <text class="wx-text_kGXxsa2">向你提问</text>
+                    <text class="wx-text_kGXxsa3">4小时前</text>
+                </view>
+            </view>
+            <navigator class="nav_commoditylink" hover-class="navigator-hover" url="../detail/detail">
+                <image class="wx-image_5vt1BO" mode="aspectFit" src="../../image/c.jpg" style="background-image: url(../../image/c.jpg; background-size: contain; background-position: center center; background-repeat: no-repeat; "/>
+            </navigator>
+        </view>
+    </view>
+  </swiper-item>
+</swiper>

@@ -1,0 +1,25 @@
+/**index.wxss**/
+.swiper-tab{
+    width:100%;
+    border-bottom:1rpx solid #777777;
+    text-align:center;
+    line-height:70rpx;
+}
+.swiper-tab-list{
+    font-size:28rpx;
+    display:inline-block;
+    width:50%;
+    color:#777777;
+}
+.on{
+    color:#da7c0c;
+    border-bottom:5rpx solid #da7c0c;
+}
+.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; }  
+.swiper-box view{  
+    text-align: center;  
+}  
+.wx-view_GSg09R{padding-top: 45px; height: 100%; width: 100%; overflow: auto; }
+.wx-scroll-view_MBKQjG{padding-top: 41px; height: 100%; }
+.wx-input_aN3YXL:focus{text-align: left; width: 16rem; transform: rotate(0deg) scale(1) translate(0%, 0%); transition: all 0.3s ease; }
+.wx-navigator_n3vQYd:active{transform: rotate(0deg) scale(0.98) translate(0%, 0%); transition: all 0s ease;}
